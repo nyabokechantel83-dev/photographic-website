@@ -1,57 +1,75 @@
-# 📸 Photo Portfolio Website
+# Photo Portfolio
 
-## 👤 Author
-Your Name
-Chantel
----
-
-## 👥 Group Members
-
-This project was developed as a group photography portfolio by:
-
-- Brian — Portrait Specialist (Responsible for portrait photography and editing)
-- Malaika — Nature Photographer (Responsible for landscape and wildlife photography)
-- Your Name — Web Developer (Responsible for website design and development)
+A personal photography portfolio website by **Chantel**, showcasing nature, landscape, and travel photography across Kenya.
 
 ---
 
-## 📖 Project Description
+## Author
 
-The Photo Portfolio Website is a personal photography showcase designed to present a collection of photographic work in a clean, modern, and visually appealing format. The website highlights different categories of photography including portrait photography, nature photography, travel photography, and landscape storytelling.
-
-The project includes sections such as:
-- A homepage introduction (Welcome section)
-- Biography section introducing photographers
-- Image gallery showcasing selected photographs
-- Favourite places list
-- Contact form for user inquiries
-
-The main goal of this project is to demonstrate web development skills using HTML and CSS while also presenting photography work in a structured and professional layout.
+**Chantel** — Nature & Landscape Photographer
 
 ---
 
-## 🛠️ Technologies Used
+## Description
 
-- HTML5 (structure of the website)
-- CSS3 (styling and layout)
-- Responsive design principles
-- Image-based gallery system
+A simple, responsive portfolio website featuring a photo gallery, biography, favourite places, and a contact form. Built with a dark glassmorphism design.
 
 ---
 
-## 📁 Project Features
+## Setup
 
-- 🎨 Modern dark-themed photography layout
-- 🖼️ Responsive image gallery using grid system
-- 👤 Team biography section
-- 📌 Navigation bar with smooth section linking
-- 📝 Contact form (frontend only)
-- 🌍 Organised portfolio sections
+1. Clone the repository:
+   ```bash
+   git clone # Photo Portfolio
+
+A personal photography portfolio website by **Chantel**, showcasing nature, landscape, and travel photography across Kenya.
 
 ---
 
-## 🚀 Project Setup Instructions
+## Author
 
-### 1. Clone or Download the Project
-```bash
-git clone https://nyabokechantel83-dev.github.io/photographic-website.git
+**Chantel** — Nature & Landscape Photographer
+
+---
+
+## Description
+
+A simple, responsive portfolio website featuring a photo gallery, biography, favourite places, and a contact form. Built with a dark glassmorphism design.
+
+---
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/photo-portfolio.git
+   ```
+2. Open `index.html` in your browser.
+
+---
+
+## Live Site
+
+🌐 [View on GitHub Pages](https://your-username.github.io/photo-portfolio)
+
+---
+
+## License
+
+© 2026 Chantel. All rights reserved. Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+   ```
+2. Open `index.html` in your browser.
+
+---
+
+## Live Site
+
+🌐 [View on GitHub Pages](https://your-username.github.io/photo-portfolio)
+
+---
+
+## License
+
+© 2026 Chantel. All rights reserved. Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
