@@ -1,149 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photo Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- logo -->
-  <header>
-    <p>Photo Portfolio</p>
-    <p>Capturing memorable moments across Kenya and beyond</p>
-  </header>
-  
-<!-- navigation -->
-  <div class="nav">
-    <span><a href="#home">Home</a></span>
-    <span><a href="#bio">Bio</a></span>
-    <span><a href="#gallery">Gallery</a></span>
-    <span><a href="#favourites">Favourite Places</a></span>
-    <span><a href="#contact">Contact</a></span>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Portfolio</title>
 
-  <main>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <!-- HOME -->
-    <section id="home" class="section">
-      <p class="section-title">Welcome</p>
-      <p>
-        Welcome to our photography portfolio. We are a team of passionate
-        photographers based in Kenya, dedicated to capturing the beauty of
-        life, nature, and people. Explore our gallery, learn about our team,
-        and get in touch if you would like to work with us.
-      </p>
+  <body>
+    <header>
+      <h1>Photo Portfolio</h1>
+      <p>Capturing memorable moments</p>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <h2>Photography That Tells a Story</h2>
+      <p>Portraits • Nature • Travel</p>
     </section>
 
-    <!-- BIO -->
-    <section id="bio" class="section">
-      <p class="section-title">Biography</p>
-      <p><em>A passionate team dedicated to capturing the world through a lens.</em></p>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#bio">Bio</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#favourites">Favourite Places</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-      <div class="members">
+    <div class="main">
 
-        <div class="member">
-          <img src="Brian Moser.jpg" alt="Portrait of Brian">
-          <p>Brian</p>
-          <p class="role">Portrait Specialist</p>
-          <p><em>Focused on human expression</em></p>
-          <p>Brian has over 8 years of experience in portrait photography,
-          capturing raw human emotion across Nairobi.</p>
+      <!-- HOME -->
+      <div id="home" class="section">
+        <p class="section-title"><strong>Welcome</strong></p>
+        <p>
+          This is my photography portfolio showcasing my work and favourite
+          places across Kenya and beyond.
+        </p>
+      </div>
+
+      <!-- BIO -->
+      <div id="bio" class="section">
+        <p class="section-title"><strong>Biography</strong></p>
+
+        <p class="section-intro">
+          <em>A passionate team dedicated to capturing the world through a lens.</em>
+        </p>
+
+        <div class="members">
+
+          <div class="member">
+            <img
+              src="Brian Moser.jpg"
+              alt="Portrait of Brian, Portrait Specialist"
+            />
+            <div class="member-info">
+              <p><strong>Brian</strong></p>
+              <p class="role">Portrait Specialist</p>
+              <p><em>Focused on human expression</em></p>
+            </div>
+          </div>
+
+          <div class="member">
+            <img
+              src="Black Queens midfielder Chantelle Boye-Hlorkah has….jpg"
+              alt="Portrait of Chantel, Nature Photographer"
+            />
+            <div class="member-info">
+              <p><strong>Chantel</strong></p>
+              <p class="role">Nature Photographer</p>
+              <p><em>Exploring landscapes</em></p>
+            </div>
+          </div>
+
+          <!-- TEAM SKILLS (ORDERED LIST USED CORRECTLY) -->
+          <div class="member">
+            <div class="member-info">
+              <p><strong>Team Skills Overview</strong></p>
+
+              <ol>
+                <li>Portrait photography</li>
+                <li>Nature & wildlife photography</li>
+                <li>Landscape storytelling</li>
+                <li>Studio lighting techniques</li>
+                <li>Photo editing & color grading</li>
+              </ol>
+            </div>
+          </div>
+
         </div>
+      </div>
 
-        <div class="member">
-          <img src="Black Queens midfielder Chantelle Boye-Hlorkah has….jpg" alt="Portrait of Chantel" loading="lazy">
-          <p>Chantel</p>
-          <p class="role">Nature Photographer</p>
-          <p><em>Exploring landscapes</em></p>
-          <p>Chantel is a nature photographer with a deep love for Kenya's
-          landscapes, coastlines, and national parks.</p>
+      <!-- GALLERY -->
+      <div id="gallery" class="section">
+        <p class="section-title"><strong>Gallery</strong></p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="Maasai-Mara.jpg" alt="Maasai Mara animals" />
+            <p class="caption">Maasai Mara</p>
+          </div>
+
+          <div class="gallery-item">
+            <img src="Mount Kenya 5_199 m Kenia.jpg" alt="Mount Kenya peaks" />
+            <p class="caption">Mount Kenya</p>
+          </div>
+
+          <div class="gallery-item">
+            <img src="About Diani Beach.jpg" alt="Diani Beach waters" />
+            <p class="caption">Diani Beach</p>
+          </div>
+
+          <div class="gallery-item">
+            <img src="Thompsons Falls.jpg" alt="Thomson Falls" />
+            <p class="caption">Thomson Falls</p>
+          </div>
+
+          <div class="gallery-item">
+            <img src="Kruger National Park.jpg" alt="Nairobi National Park wildlife" />
+            <p class="caption">Nairobi National Park</p>
+          </div>
         </div>
 
       </div>
     </section>
 
-    <!-- GALLERY -->
-    <section id="gallery" class="section">
-      <p class="section-title">Gallery</p>
-      <p><em>Click any photo to view it in full size.</em></p>
+      <!-- FAVOURITE PLACES -->
+      <div id="favourites" class="section">
+        <p class="section-title"><strong>Favourite Places</strong></p>
 
-      <div class="gallery-grid">
-
-        <div class="gallery-item">
-          <a href="maasai.jpg" target="_blank" rel="noopener">
-            <img src="maasai.jpg" alt="Maasai Mara at sunset" loading="lazy">
-          </a>
-          <p class="caption">Maasai Mara</p>
-        </div>
-
-        <div class="gallery-item">
-          <a href="mountain.jpg" target="_blank" rel="noopener">
-            <img src="mountain.jpg" alt="Mount Kenya peaks" loading="lazy">
-          </a>
-          <p class="caption">Mount Kenya</p>
-        </div>
-
-        <div class="gallery-item">
-          <a href="beach.jpg" target="_blank" rel="noopener">
-            <img src="beach.jpg" alt="Diani Beach waters" loading="lazy">
-          </a>
-          <p class="caption">Diani Beach</p>
-        </div>
-
-        <div class="gallery-item">
-          <a href="waterfall.jpg" target="_blank" rel="noopener">
-            <img src="waterfall.jpg" alt="Thomson Falls" loading="lazy">
-          </a>
-          <p class="caption">Thomson Falls</p>
-        </div>
-
-        <div class="gallery-item">
-          <a href="park.jpg" target="_blank" rel="noopener">
-            <img src="park.jpg" alt="Nairobi National Park" loading="lazy">
-          </a>
-          <p class="caption">Nairobi National Park</p>
-        </div>
-
+        <ul>
+          <li>Maasai Mara</li>
+          <li>Mount Kenya</li>
+          <li>Diani Beach</li>
+          <li>Thomson Falls</li>
+          <li>Nairobi National Park</li>
+        </ul>
       </div>
-    </section>
 
-    <!-- FAVOURITE PLACES -->
-    <section id="favourites" class="section">
-      <p class="section-title">Favourite Places</p>
+      <!-- CONTACT (FIXED FORM) -->
+      <div id="contact" class="section">
+        <p class="section-title"><strong>Contact</strong></p>
 
-      <ul>
-        <li><strong>Maasai Mara</strong></li>
-        <li><strong>Mount Kenya</strong></li>
-        <li><strong>Diani Beach</strong></li>
-        <li><strong>Thomson Falls</strong></li>
-        <li><strong>Nairobi National Park</strong></li>
-      </ul>
-    </section>
+        <form>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <p class="section-title">Contact</p>
+          <div class="form-group">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
 
-      <form>
-        <label>Name</label>
-        <input type="text" required />
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
 
-        <label>Email</label>
-        <input type="email" required />
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
 
-        <label>Message</label>
-        <textarea required></textarea>
+          <button type="submit">Send message</button>
 
-        <button type="submit">Send message</button>
-      </form>
-    </section>
+        </form>
+      </div>
 
-  </main>
+    </div>
 
-  <footer class="footer">
-    <p>&copy; 2026 Photo Portfolio</p>
-  </footer>
-
-</body>
+    <footer class="footer">
+      <p>&copy; 2026 Photo Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
