@@ -1,73 +1,20 @@
 # Photo Portfolio
 
-A personal photography portfolio website by **Chantel**, showcasing nature, landscape, and travel photography across Kenya.
-
----
-
 ## Author
-
-**Chantel** — Nature & Landscape Photographer
-
----
+Chantel
 
 ## Description
-
-A simple, responsive portfolio website featuring a photo gallery, biography, favourite places, and a contact form. Built with a dark glassmorphism design.
-
----
+This is a photography website that showcases beautiful sceneries and memorable  events captured across Kenya. The site includes a gallery, biography, favourite places and a contact form.
 
 ## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone # Photo Portfolio
-
-A personal photography portfolio website by **Chantel**, showcasing nature, landscape, and travel photography across Kenya.
-
----
-
-## Author
-
-**Chantel** — Nature & Landscape Photographer
-
----
-
-## Description
-
-A simple, responsive portfolio website featuring a photo gallery, biography, favourite places, and a contact form. Built with a dark glassmorphism design.
-
----
-
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://nyabokechantel83-dev.github.io/photographic-website.git
-   ```
-2. Open `index.html` in your browser.
-
----
+1. Download or clone the project
+2. Open the folder
+3. Double click on index.html to open it in your browser
 
 ## Live Site
-
-🌐 [View on GitHub Pages](https://nyabokechantel83-dev.github.io/photographic-website,git)
-
----
+ https://nyabokechantel83-dev.github.io/photographic-website.git
 
 ## License
+Copyright 2026 Chantel. All rights reserved.
+This project is licensed under the MIT License.
 
-© 2026 Chantel. All rights reserved. Licensed under the [MIT License](https://opensource.org/licenses/MIT).
-   ```
-2. Open `index.html` in your browser.
-
----
-
-## Live Site
-
-🌐 [View on GitHub Pages](https://your-username.github.io/photo-portfolio)
-
----
-
-## License
-
-© 2026 Chantel. All rights reserved. Licensed under the [MIT License](https://opensource.org/licenses/MIT).
