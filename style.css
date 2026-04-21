@@ -212,17 +212,20 @@ textarea:focus {
 button {
   padding: 10px;
   border: none;
-  background: #38bdf8;
+  background: black;
   color: #0f172a;
   font-weight: bold;
   cursor: pointer;
   border-radius: 6px;
-  transition: 0.3s;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
 button:hover {
   background: #0ea5e9;
 }
+font button:hover {background-color: #0ea5e9;}
+font button:active {background-color: #0ea5e9;}
 
 /* FOOTER */
 .footer {
