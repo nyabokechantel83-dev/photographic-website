@@ -42,7 +42,7 @@ A simple, responsive portfolio website featuring a photo gallery, biography, fav
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/photo-portfolio.git
+   git clone  https://nyabokechantel83-dev.github.io/photographic-website.git
    ```
 2. Open `index.html` in your browser.
 
@@ -50,7 +50,7 @@ A simple, responsive portfolio website featuring a photo gallery, biography, fav
 
 ## Live Site
 
-🌐 [View on GitHub Pages](https://your-username.github.io/photo-portfolio)
+🌐 [View on GitHub Pages]( https://nyabokechantel83-dev.github.io/photographic-website .git)
 
 ---
 
@@ -65,7 +65,7 @@ A simple, responsive portfolio website featuring a photo gallery, biography, fav
 
 ## Live Site
 
-🌐 [View on GitHub Pages](https://your-username.github.io/photo-portfolio)
+🌐 [View on GitHub Pages]( https://nyabokechantel83-dev.github.io/photographic-website.git)
 
 ---
 
