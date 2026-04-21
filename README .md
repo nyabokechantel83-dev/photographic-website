@@ -54,4 +54,4 @@ The main goal of this project is to demonstrate web development skills using HTM
 
 ### 1. Clone or Download the Project
 ```bash
-git clone https://github.com/your-username/photo-portfolio.git
+git clone https://nyabokechantel83-dev.github.io/photographic-website.git
